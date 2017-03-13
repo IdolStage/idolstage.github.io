@@ -19,7 +19,7 @@
   <meta content="{{ site.title }}" property="og:site_name">
 {% if page.title == "Home" %}
   <meta content="{{ site.title }} - {{ site.tagline }}" property="og:title">
-{% if page.title %}
+{% else if page.title %}
   <meta content="{{ page.title }}" property="og:title">
 {% else %}
   <meta content="{{ site.title }}" property="og:title">
