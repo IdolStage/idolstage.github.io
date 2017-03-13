@@ -1,0 +1,126 @@
+// Posts and pages
+//
+// Each post is wrapped in `.post` and is used on default and post layouts. Each
+// page is wrapped in `.page` and is only used on the page layout.
+
+.page,
+.post {
+  margin-bottom: 4em;
+  background-color: $post-bg;
+}
+
+// Blog post or page title
+.page-title,
+.post-title,
+.post-title a {
+  color: #fff;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+  @media (max-width: 980px) {
+    font-size: 1.6rem;
+  }
+}
+
+// Meta data line below post title
+.post-date {
+  display: block;
+  //margin-top: -.5rem;
+  //margin-bottom: 1rem;
+  //color: #f9f9f9;
+  float: right;
+}
+
+
+/* Header post */
+.head-post {
+  height: 30rem;
+  padding-top: 24rem;
+  background-color: #268bd2;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.post-title-box {
+  margin-top: 0;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding: 2rem 4rem;
+  background-color: $secondary-bg;
+  color: #fff;
+
+  @media (max-width: 980px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @media (max-width: 480px) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.content-article {
+  margin: 0 auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+
+  @media (max-width: 980px) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 5.5rem;
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4.5rem;
+  }
+}
+
+.post-datetime {
+    border-top: 1px dotted #aeaeae;
+    color: #f9f9f9;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .25px;
+    padding-top: 14px;
+    width: 100%;
+}
+
+
+// Related posts
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.related-posts {
+  padding-left: 0;
+  list-style: none;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  li {
+    small {
+      font-size: 75%;
+      color: #999;
+    }
+
+    a:hover {
+      color: #268bd2;
+      text-decoration: none;
+
+      small {
+        color: inherit;
+      }
+    }
+  }
+}

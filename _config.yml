@@ -1,0 +1,32 @@
+# Setup
+title:            Idol Stage
+emai:             info@idolstage.it
+description:      Blog
+tagline:          Official Blog
+paginate:         1
+paginate_path:    '/page/:num'
+#baseurl:          '/'
+url:              'http://blog.idolstage.it'
+permalink:        '/:year/:month/:title/'
+
+# Author
+author:
+  name:           Marco Patriarca
+  url:            https://idolstage.it
+  email:          info@idolstage.it
+
+# Custom vars
+version:          0.1.0
+github:
+  repo:           https://github.com/IdolStage/idolstage.github.io
+
+# Assets
+sass:
+  sass_dir:       _sass
+  style:          :compressed
+
+# Custom configs
+gems: [jekyll-paginate]
+
+# Dependencies
+markdown:         kramdown

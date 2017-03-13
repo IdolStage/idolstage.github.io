@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+---
+
+<div class="archive">
+  <h2 class="archive-year">2017</h2>
+  {% for post in paginator.posts %}
+    <div class="archive-item">
+      <span class="post-date archive-date">{{ post.date | date: "%-d %B, %Y" }}</span>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="archive-title">
+        {{ post.title }}
+      </a>
+    </div>
+  {% endfor %}
+</div>

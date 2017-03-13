@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <header class="masthead">
+      <div class="container">
+        <div class="masthead-logo">
+          <a href="{{ site.baseurl }}/" title="Home"><img src="/public/images/idol-stage-blog-logo.png" alt="{{ site.title }}"></a>
+        </div>
+
+        <nav>
+          <ul>
+            <li class="back"><a href="https://idolstage.it/"><i class="fa fa-angle-left" aria-hidden="true"></i> Torna al sito</a></li>
+            <li><a href="mailto:info@idolstage.it"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/IdolStageIT"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/IdolStageIT"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/IdolStageIT"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://youtube.com/c/IdolStageITOfficial"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container content">
+
+      <main>
+        {{ content }}
+      </main>
+
+      <hr>
+
+      <footer class="footer">
+        <small>
+          Idol Stage &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. Tutti i diritti riservati.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>
