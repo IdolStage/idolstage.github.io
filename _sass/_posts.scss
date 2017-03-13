@@ -29,7 +29,6 @@
   //margin-top: -.5rem;
   //margin-bottom: 1rem;
   //color: #f9f9f9;
-  float: right;
 }
 
 
@@ -40,6 +39,10 @@
   background-color: #268bd2;
   background-position: top center;
   background-repeat: no-repeat;
+
+  @media (max-width: 980px) {
+    background-size: cover;
+  }
 }
 
 .post-title-box {
@@ -83,13 +86,17 @@
 }
 
 .post-datetime {
-    border-top: 1px dotted #aeaeae;
-    color: #f9f9f9;
-    display: inline-block;
-    font-weight: 400;
-    letter-spacing: .25px;
-    padding-top: 14px;
-    width: 100%;
+  border-top: 1px dotted #aeaeae;
+  color: #f9f9f9;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .25px;
+  padding-top: 14px;
+  width: 100%;
+}
+
+.post-date-publish {
+  float: right;
 }
 
 
