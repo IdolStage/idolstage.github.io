@@ -17,6 +17,8 @@
 
   <!-- Enable Graph API for Facebook integration -->
   <meta content="{{ site.title }}" property="og:site_name">
+{% if page.title == "Home" %}
+  <meta content="{{ site.title }} - {{ site.tagline }}" property="og:title">
 {% if page.title %}
   <meta content="{{ page.title }}" property="og:title">
 {% else %}
@@ -33,7 +35,7 @@
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
 {% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}/" property="og:url">
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
@@ -49,6 +51,7 @@
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
 {% endif %}
+  <meta property="og:image" content="http://blog.idolstage.it/public/logo-ogp.png">
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">

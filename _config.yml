@@ -1,7 +1,7 @@
 # Setup
 title:            Idol Stage
 emai:             info@idolstage.it
-description:      Blog
+description:      Il blog ufficiale di Idol Stage, il vero punto di riferimento per le idol in Italia
 tagline:          Official Blog
 paginate:         1
 paginate_path:    '/page/:num'
