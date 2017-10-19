@@ -9,7 +9,7 @@ categories:
 tags:
 - lucca comics
 - live
-image: lucca17.png
+image: idol-stage-lucca17.png
 ---
 
 **Idol Stage**, col supporto di **OchaCaffè**, è pronto per il grande ritorno nelle magnifiche ambientazioni medievali lucchesi. Questa stupenda location fantasy farà da sfondo ancora una volta alle esibizioni delle nostre idol, che con le loro magiche voci saranno capaci di incantare il pubblico. Con entusiasmo dunque siamo lieti di annunciare la propria nostra presenza a Lucca Comics & Game 2017.
