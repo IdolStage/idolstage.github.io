@@ -3,7 +3,7 @@ title:            Idol Stage
 emai:             info@idolstage.it
 description:      Il blog ufficiale di Idol Stage, il vero punto di riferimento per le idol in Italia
 tagline:          Official Blog
-paginate:         1
+paginate:         10
 paginate_path:    '/page/:num'
 #baseurl:          '/'
 url:              'http://blog.idolstage.it'
